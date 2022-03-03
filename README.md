@@ -49,3 +49,7 @@ See [This example](examples/lib/namespace/MyDerivedClass.pm). This module define
 that inherits from the class `namespace::MyClass` (see [this module](examples/lib/namespace/MyClass.pm)).
 
 To use this class, see [this script](examples/test_inheritance.pl).
+
+# Links
+
+* [One liners](https://github.com/denis-beurive/linux-notes/blob/master/perl.md)
