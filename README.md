@@ -50,6 +50,18 @@ that inherits from the class `namespace::MyClass` (see [this module](examples/li
 
 To use this class, see [this script](examples/test_inheritance.pl).
 
+# Define a class outside a module
+
+Did you know that you can define a class outside a module (`.pm` file) ?
+
+You can even define 2 or more classes with the same `.pl` file.
+
+This can be pretty handy if you need a "single file script" with no dependencies.
+
+The trick is to define a class within a `BEGIN{...}` block. _Please note that you can write as many of these blocks in a single file_.
+
+Please see [this example](examples/log-parser.pl) that implements a parser for Log4J generated LOG files.
+
 # Links
 
 * [One liners](https://github.com/denis-beurive/linux-notes/blob/master/perl.md)
