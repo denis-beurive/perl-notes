@@ -62,15 +62,13 @@ The trick is to define a class within a `BEGIN{...}` block. _Please note that yo
 
 Please see [this example](examples/log-parser.pl) that implements a parser for Log4J generated LOG files.
 
-# Links
-
-* [One liners](https://github.com/denis-beurive/linux-notes/blob/master/perl.md)
-
 # Print JSON with sorted keys
 
 Showing sorted keys makes things much easier to read !
 
 Easy ! Look at [this](examples/sorted-json.pl).
 
+# Links
 
+* [One liners](https://github.com/denis-beurive/linux-notes/blob/master/perl.md)
 
