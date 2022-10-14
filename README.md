@@ -65,3 +65,12 @@ Please see [this example](examples/log-parser.pl) that implements a parser for L
 # Links
 
 * [One liners](https://github.com/denis-beurive/linux-notes/blob/master/perl.md)
+
+# Print JSON with sorted keys
+
+Showing sorted keys makes things much easier to read !
+
+Easy ! Look at [this](examples/sorted-json.pl).
+
+
+
