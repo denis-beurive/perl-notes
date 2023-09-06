@@ -68,6 +68,10 @@ Showing sorted keys makes things much easier to read !
 
 Easy ! Look at [this](examples/sorted-json.pl).
 
+# HTTP requests
+
+See [this example](examples/Mailjet.pm).
+
 # Links
 
 * [One liners](https://github.com/denis-beurive/linux-notes/blob/master/perl.md)
