@@ -26,6 +26,7 @@ BEGIN {
     }
     use lib File::Spec->catfile(__DIR__, 'lib');
 }
+# Below this point you can import modules that are located under "lib".
 ```
 
 > Please note that you can use [this module](examples/Bootstrap.pm). 
@@ -71,6 +72,11 @@ Easy ! Look at [this](examples/sorted-json.pl).
 # HTTP requests
 
 See [this example](examples/Mailjet.pm).
+
+# Imap and Pop3
+
+* [imap.pl](examples/imap.pl)
+* [pop3.pl](examples/pop3.pl)
 
 # Links
 
