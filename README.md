@@ -36,6 +36,20 @@ BEGIN {
 ```perl5
 use constant CONSTANT1  => 'constant1';
 use constant CONSTANT2  => 'constant2';
+use constant CONF       => { path => '/tmp/toto' }; # can be a reference
+```
+
+Then, you prefix the identifiers used to declare the constants by `&` (these constants are functions that return a value).
+
+Ex:
+
+```perl
+use constant CONSTANT1  => 'constant1';
+
+printf("value: %s\n", &CONSTANT1);
+
+# or:
+printf("value: %s\n", &CONSTANT1()); # because this is a function
 ```
 
 # Define a class
