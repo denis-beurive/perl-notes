@@ -92,6 +92,10 @@ See [this example](examples/Mailjet.pm).
 * [imap.pl](examples/imap.pl)
 * [pop3.pl](examples/pop3.pl)
 
+# Date and time
+
+See [this example](examples/datetime.pl).
+
 # Links
 
 * [One liners](https://github.com/denis-beurive/linux-notes/blob/master/perl.md)
