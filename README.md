@@ -96,6 +96,10 @@ See [this example](examples/Mailjet.pm).
 
 See [this example](examples/datetime.pl).
 
+# SQLite
+
+See [this example](examples/sqlite.pl).
+
 # Links
 
 * [One liners](https://github.com/denis-beurive/linux-notes/blob/master/perl.md)
